@@ -19,7 +19,7 @@
   caller that treats a successful init as a successful post will report
   publishes that never appeared. `publish-status` is how you find out, and
   `await-publish` sequences the polling with an injected `:sleep-fn`."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def default-base-url "https://open.tiktokapis.com")
 
