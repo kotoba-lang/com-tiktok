@@ -37,8 +37,8 @@ come back as an opaque API error, and defaults to `SELF_ONLY`.
 ## Test
 
 ```bash
-nbb run_tests.cljs     # primary
-clojure -M:test        # JVM, secondary
+kbb --backend sci run_tests.cljk     # primary
+kbb -M:test        # JVM, secondary
 ```
 
 7 tests / 12 assertions, green on both.
